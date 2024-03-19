@@ -1,9 +1,30 @@
-@import url(styles/header.css);
+@import url(header.css);
 :root{
---cor-de-fundo: #9949B4;
---cor-cabecalho: #FFFFFF;
+--cor-de-fundo:#eb0808e7;
+--cor-do-cabecalho:#FFFFFF;
 }
 body{
 background-color: var(--cor-de-fundo);
 margin: 0;
+}
+.mais informações {
+    background-image: linear-gradient( #687A86,rgb(156, 166, 250));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0 ;
+    font-family: 'Poppins', sans-serif;
+    
+    }
+    
+    .mais  { 
+    width: 35%;
+    }
+        
+.paragrafo{ 
+    font-size: 15px;
+
+    color: white;
+    font-family: 'Poppins', sans-serif;
+     padding: 2%;
 }
